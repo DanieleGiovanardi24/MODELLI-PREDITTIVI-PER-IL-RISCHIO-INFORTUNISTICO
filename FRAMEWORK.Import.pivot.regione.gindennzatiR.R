@@ -7,10 +7,9 @@ library(lubridate)   # gestione date
 library(writexl)     # export xlsx
 
 ##### 2 · PATH ---------------------------------------------------------------------
-# Imposta qui la cartella principale del progetto
 BASE_PATH <- setwd("/Users/danigiovanardi/Desktop/INAIL_OPENDATA/dati_originali")
 
-# Sotto-cartelle (rispetta la struttura usata per la tesi)
+# Sotto-cartelle 
 PATH_MENSILI    <- file.path(BASE_PATH, "dati_originali", "dati_mensili")
 PATH_SEMESTRALI <- file.path(BASE_PATH, "dati_originali", "dati_semestrali")
 PATH_DECODIFICA <- file.path(BASE_PATH, "dati_originali", "dataset_decodifica")
