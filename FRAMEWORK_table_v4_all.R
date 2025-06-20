@@ -1,5 +1,5 @@
 setwd("/Users/danigiovanardi/Desktop/INAIL_OPENDATA/dati_processati")
-load("INAIL_Semestrale_Amanda.Rdata")
+load("INAIL_Semestrale.Rdata")
 
 library(dplyr)
 library(sqldf)
